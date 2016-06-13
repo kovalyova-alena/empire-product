@@ -1,0 +1,190 @@
+﻿section.Order {
+	margin-top: 30px;
+	border-bottom: 1px solid #e6e6e6;
+	display: inline-block;
+    width: 100%;
+}
+
+.Order .personal p {
+ 	font: 15px 'RobotoRegular';
+ 	color: #000;
+ }
+
+.Order .adress p {
+  	font: 15px 'RobotoRegular';
+ 	color: #000;
+  }
+.Order label {
+	font: 13px 'RobotoLight';
+	color: #000;
+	margin-bottom: 10px;
+
+ } 
+
+.form-control:focus {
+	outline: none;
+	border: 1px solid #f4f4f4;
+	-webkit-box-shadow: inset 0 0 0 #fff; 
+	box-shadow: inset 0 0 0 #fff; 
+}
+
+.Order form select {
+ 
+ }
+
+.Order form select {
+  width: 100%;
+ 
+  -webkit-appearance: none;
+ background: url(../img/Order/select_arrow.png) no-repeat;
+ background-size: cover;
+  line-height: 1em;
+    -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  -ms-appearance: none;
+  appearance: none!important;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	margin-bottom: 15px;
+
+}
+ 
+select::-ms-expand {
+  display: none;
+}
+
+
+.Order form textarea{
+	background: #f4f4f4;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	color: #000;
+	font: 13px 'RobotoRegular';
+}
+
+.Order form select#region_rus {
+ 	display: none;
+ }
+
+.Order form input {
+	background: #f4f4f4;
+	border: none;
+	outline: none;
+	border-radius: 0px;
+	box-shadow: none;
+	color: #000;
+	font: 13px 'RobotoRegular';
+}
+
+.Order form button {
+	width: 100%;
+    background: #3b81e0;
+    color: #fff;
+    font: 14px/30px 'RobotoBold';	
+}
+
+.Order .right_order p.your_order{
+	font: 18px/18px 'RobotoLight';
+}
+
+.Order .right_order .title_order {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.Order .right_order a.continue {
+	color: #324053;
+	font: 13px 'RobotoRegular';
+	text-decoration: none;
+	text-transform: none;
+}
+
+.Order .right_order p#price {
+	font: 18px 'RobotoBold', sans-serif;
+	color: #324053;
+}
+
+.Order .right_order p#price span {
+	font: 14px 'RobotoLight';
+	color: #8b8b8b;
+}
+
+.Order .right_order .product {
+	margin-top: 25px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+
+.Order .right_order .product p#p1 {
+	font: 14px 'RobotoBold';
+	color: #000;
+}
+
+.Order .right_order .product p#p2 {
+	font: 13px 'RobotoLight';
+	color: #8d8d8d;
+}
+
+.Order .right_order .product p#p3 {
+	font: 13px 'RobotoRegular';
+	color: #000;
+
+}
+
+
+.Order .info_order {
+	margin-top: 20px;
+}
+
+.Order .info_order p {
+	margin:10px 0px;
+}
+
+.Order .right_order .product p.delivery, 
+.Order .info_order p.cost span {
+ font-family: 'RobotoRegular';
+}
+
+.Order .info_order p.shares_order span {
+	font: 13px 'RobotoBold';
+}
+
+.Order .info_order  p.all {
+	text-transform: uppercase;
+	font: 16px 'RobotoBold';
+}
+
+.Order .info_order p.cost {
+	font: 13px 'RobotoBold';
+}
+
+
+.Order .info_order p.free {
+	color: #c02051;
+	font: 13px 'RobotoBold';
+}
+
+.Order .info_order  p.all_sum {
+	font:16px 'RobotoBold';
+}
+
+.Order .info_order  p.all_sum span {
+	font-family: 'RobotoRegular';
+}
+
+.Order form button {
+	width: 100%;
+    background: #3b81e0;
+    color: #fff;
+    font: 14px/30px 'RobotoBold';
+    border: 0;
+    margin-bottom: 65px;
+}
+
+.Order form button:hover {
+	background: #3b81e0;
+	color: #fff;
+	}

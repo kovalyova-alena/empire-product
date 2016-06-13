@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/fonts.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/oder.css">
+
+	<title>Empire-product</title>
+</head>
+<body>
+<!----------------------TopBar--------------------- -->
+	<section class="TopBar">
+		<div class="container container_TopBar text-center">
+				<div class="col-md-6 col-lg-6 topLeft">
+					<div class="col-md-5 col-lg-4 free_sheeping">
+						<a href="">
+							<p>
+								Бесплатная доставка по Украине!
+							</p>
+						</a>
+					</div>
+					<div class="col-md-6 col-lg-5 original_product">
+						<a href="">
+							<p>
+								Только 100% оригинальная продукция.
+							</p>
+						</a>
+					</div>
+					<div class="col-md-1 col-lg-3">
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6">
+				</div>
+			</div>	
+	</section>
+
+<!----------------------Header--------------------- -->	
+	<header class="Header">	
+		<div class="container">
+			<div class="row rowHeader">
+				<div class="headerContent">
+					<div class="rowContact" id="order_no_border">
+						<div class="col-md-3">
+							<div class="titleContact">
+								<p>
+									Горячая линия
+								</p>
+							</div>
+							<p class="phone_header padding">
+								(044) 374 03 83  0(800) 50 77 40
+							</p>
+							<p>
+								<img src="../img/Header/work_day.png" alt="">
+								&nbsp;
+								&nbsp;
+								понедельник - пятница с 7:55 до 20:05
+							</p>		
+						</div>
+						<div class="col-md-6 text-center">
+							<img src="../img/Header/logo.png" alt="">
+						</div>
+						<div class="col-md-3 live_chat">
+							<div class="titleContact">
+								<p class="margin_title">
+									Live chat
+								</p>
+							</div>
+							<p id="margin_chat">
+								<img src="../img/Header/icon_chat.png" alt="" class="margin_title">
+								&nbsp;
+								<span id="chat">
+									24/7
+									&nbsp;
+								</span>
+								<img src="../img/Header/woman_chat.png" alt="">
+								&nbsp;
+								<span>
+									<img src="../img/Header/icon_online.png" alt="">
+									онлайн
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="border_menu">
+		</div>
+	</header>
+
+<!----------------------Order--------------------- -->	
+	<section class="Order">
+		<div class="container">
+			<form role="form">
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-6 personal">
+							<p>
+								Личные данные
+							</p>
+							<div class="form-group">
+	    						<label for="your_name">Ваше имя:</label>
+	    						<input type="text" class="form-control" id="your_name" name="name">
+	 						</div>
+	 						<div class="form-group">
+	    						<label for="sername">Фамилия:</label>
+	    						<input type="text" class="form-control" id="sername" name="sername">
+	 						</div>
+	 						<div class="form-group">
+	    						<label for="email">E-Mail:</label>
+	    						<input type="email" class="form-control" id="email" name="email">
+	 						</div>
+	 						<div class="form-group">
+	    						<label for="tel">Телефон:</label>
+	    						<input type="tel" class="form-control" id="tel" name="tel">
+	 						</div>
+						</div>
+						<div class="col-md-6 adress">
+							<p>
+								Адрес
+							</p>
+							<label for="country">Страна:</label>
+							<select id="country" class="form-control" name="country">
+							    <option>Украина</option>
+							    <option>Россия</option>
+							</select>
+							<label for="region_ukr">Регион/область:</label>
+							<select id="region_ukr" class="form-control" name="region_ukr">
+							    <option>Киевская область</option>
+							    <option>Харьковская область</option>
+							    <option>Одесская область</option>
+							    <option>Львовская область</option>
+							    <option>Днепропетровская область</option>
+							 </select>
+								
+							<select id="region_rus" class="form-control"
+							name="region_rus">
+							    <option>Московская область</option>
+							    <option>Ростовская область</option>
+							    <option>Саратовская область</option>
+							</select>
+												
+							<div class="form-group">
+	    						<label for="city">Город:</label>
+	    						<input type="text" class="form-control" id="city" name="city">
+	 						</div>
+	 						<div class="form-group">
+	    						<label for="index">Индекс:</label>
+	    						<input type="text" class="form-control" id="index" name="index">
+	 						</div>
+	 						<div class="form-group">
+	    						<label for="adress">Адрес:</label>
+	    						<input type="email" class="form-control" id="adress" name="adress">
+	 						</div>			
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+	    						<label for="message">
+	    							Комментарий к заказу
+	    						</label>
+	    						<textarea class="form-control" rows="5" name="message" id="message">
+	    						</textarea>
+	 						</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 right_order">
+				<div class="row title_order">
+					<div class="col-md-6 text-left">
+						<p class="your_order">Ваш заказ</p>
+					</div>
+					<div class="col-md-6 text-right">
+						<a class="continue" href="">Продолжить покупки</a>
+					</div>
+				</div>
+				<div class="row product">
+					<div class="col-md-3">
+						<img src="../img/Order/perfume1.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-6">
+						<p id="p1"> AEDES DE VENUSTAS OEILLET BENGALE</p>
+						<p id="p2">Парфюмированная вода	</p>
+						<p id="p3">Код товара: 85469349</p>
+						<img src="../img/Order/number.png" alt="">
+					</div>
+					<div class="col-md-3 text-right">
+						<p id="price">2,456 &nbsp;<span>грн</span></p>
+					</div>
+				</div>
+				<div class="row product">
+					<div class="col-md-3">
+						<img src="../img/Order/perfume2.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-6">
+						<p id="p1"> AEDES DE VENUSTAS OEILLET BENGALE</p>
+						<p id="p2">Парфюмированная вода	</p>
+						<p id="p3">Код товара: 85469349</p>
+						<img src="../img/Order/number.png" alt="">
+					</div>
+					<div class="col-md-3 text-right">
+						<p id="price">2,456 &nbsp;<span>грн</span></p>
+					</div>
+				</div>
+				<div class="row info_order">
+					<div class="col-md-6 text-left">
+						<p class="shares_order">Скидка: <span>2%</span></p>
+						<p class="delivery_order">Доставка</p>
+						<p class="all">ИТОГО:</p>
+					</div>
+					<div class="col-md-6 text-right">
+						<p class="cost">75<span>грн</span></p>
+						<p class="free">Бесплатно!</p>
+						<p class="all_sum">3670<span>грн</span></p>
+					</div>
+				</div>
+				<div class="row click_ok">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<button type="submit" class="btn btn-default">
+     						Подтверждение заказа
+     					</button>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+<!----------------------Footer--------------------- -->
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-3 col-sm-3 col-xs-6">
+				<ul>
+					<li><a href="" class="title_footer">Информация</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">Delivery Information</a></li>
+					<li><a href="">Privacy Policy</a></li>
+					<li><a href="">Terms & Conditions</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6">
+				<ul>
+					<li><a href="" class="title_footer">Служба поддержки</a></li>
+					<li><a href="">Связаться с нами </a></li>
+					<li><a href="">Возврат товара</a></li>
+					<li><a href="">Карта сайта</a></li>
+				</ul>	
+			</div>
+			<div class="clearfix visible-xs"></div>
+			<div class="col-md-3 col-sm-3 col-xs-6 ">
+				<div class="col-md-11 border">
+					<ul>
+						<li><a href="" class="title_footer">Дополнительно</a></li>
+						<li><a href="" class="active">Производители </a></li>
+						<li><a href="">Подарочные сертификаты</a></li>
+						<li><a href="">Акции</a></li>
+					</ul>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 sudscribe">
+				<p>
+					Подпишитесь на рассылку
+				</p>
+				<form role="form">
+					<div class="form-group">
+				   	 	<input type="text" class="form-control" id="subscribe" name="email" placeholder="Ваш e-mail">
+				 		   	 	 <button type="submit" class="btn btn-default">
+				 		   	 	 	<img src="../img/Footer/submit_arrow.png" alt="">
+				    			</button>
+ 						</span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</footer>
+
+<!----------------------BottomBar--------------------- -->
+	<section class="BottomBar">
+		<div class="container">
+			<div class="col-md-6 col-sm-8 information">
+				<p>
+					© Empire.org.ua 2009—2016 
+					<br>
+					Интернет магазин парфюмерии и косметики, Звоните  (044) 374-03-83
+				</p>
+			</div>
+			<div class="col-md-6 col-sm-4 hidden-xs  text-right ">
+				<a href="">
+						<img src="../img/BottomBar/facebook.png" alt="">
+					</a>
+					<a href="">
+						<img src="../img/BottomBar/twitter.png" alt="">
+					</a>
+					<a href="">
+						<img src="../img/BottomBar/dribble.png" alt="">
+					</a>
+					<a href="">
+						<img src="../img/BottomBar/google.png" alt="">
+					</a>
+				
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
